@@ -24,6 +24,7 @@
 	
 
 ?>
+<link rel="stylesheet" type="text/css" href="../../css/estilo.css">
 
 
 		<form id="form_curso" name="form_curso" method="post" action="salvar.php" class="form_curso">
