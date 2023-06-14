@@ -9,7 +9,7 @@
 
 		echo "<script> alert ('ERRO: É NECESSÁRIO FAZER LOGIN');</script>";
 		
-		echo "<script> window.location.href='http://localhost/pandora';</script>";
+		echo "<script> window.location.href='/pandora';</script>";
 
 	}	
 
@@ -26,7 +26,7 @@
 		unset ($_SESSION['url_admin']);
 		unset ($_SESSION['url_aluno']);
 
-		echo "<script> window.location.href='http://localhost/pandora';</script>";				
+		echo "<script> window.location.href='/pandora';</script>";				
 
 	} 
 
@@ -45,7 +45,7 @@
 	<title>Pandora</title>
 
 	<!-- ARQUIVO DE ESTILOS DO PORTAL -->
-	<link rel="stylesheet" type="text/css" href="<?php echo $_SESSION['url']."/css/estilo.css";?>">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css";?>">
 	<link rel="icon" href="/images/icon3.png">
 	<script>
 
