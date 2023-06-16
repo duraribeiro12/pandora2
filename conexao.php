@@ -1,9 +1,9 @@
 <?php //session_start();
 
 	$servidor = "sql10.freemysqlhosting.net";
-	$usuario = "sql10624407";
-	$senha = "8T8BExQ2Vr";
-	$db_name = "sql10624407";
+	$usuario = "sql10626549";
+	$senha = "le59qkVb4V";
+	$db_name = "sql10626549";
 	
 	
 	$conexao = mysqli_connect($servidor, $usuario, $senha, $db_name) or die('Banco de dados indisponível.');
